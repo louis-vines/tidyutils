@@ -1,12 +1,15 @@
 Package: tidyutils
 Type: Package
-Title: What the Package Does (Title Case)
+Title: An Implementation of Common Patterns in the Tidyverse
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Louis Vines
+Maintainer: Louis Vines <louisgabrielvines@gmail.com>
+Description: A pattern implementing functions for common patters I use while analysing
+  data in the tidyverse
+Imports:
+  dplyr (>= 0.7.4),
+  tidyr (>= 0.8.0)
+License: MIT License
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
