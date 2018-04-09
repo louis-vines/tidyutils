@@ -2,4 +2,5 @@
 
 export(group_by_period)
 export(keep_top_n)
+export(spread_multi)
 import(dplyr)
