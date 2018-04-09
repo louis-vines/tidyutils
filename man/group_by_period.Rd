@@ -33,6 +33,7 @@ daily, weekly or monthly data.
 
 library(nycflights13)
 library(tidyr)
+library(dplyr)
 
 data("flights")
 
