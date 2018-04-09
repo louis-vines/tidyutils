@@ -1,6 +1,5 @@
 #' Aggregate a numeric column over a specified time grouping.
 #'
-#'
 #' @description
 #' \code{group_by_period} takes a date column and a numeric column and aggregates
 #' the numeric column over specified date period. This is a common pattern in
@@ -21,6 +20,7 @@
 #'
 #' library(nycflights13)
 #' library(tidyr)
+#' library(dplyr)
 #'
 #' data("flights")
 #'
